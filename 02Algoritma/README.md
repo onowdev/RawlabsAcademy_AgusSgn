@@ -20,3 +20,8 @@ Beberapa syarat yang harus dimiliki oleh algoritma yaitu :
 1. General, artinya algoritma yang dibuat harus bersifat umum, tidak bersifat kasuistis.
 2. Finiteness, algoritma harus mempunyai akhir.
 3. Efisien, Algoritma yang dibuat harus efisien, karena dalam satu permasalahn yang ada dapat ditemukan kemungkinan solusi, harus dipilih yang paling efisien.
+
+Berikut Adalah Contoh Algoritma menentukan Bilangan Prima atau bukan dayang saya buat dengan whimsical 
+
+https://whimsical.com/rawlabs-algoritma-PxFRbjcpuZpsk7yBMzVjjz
+
