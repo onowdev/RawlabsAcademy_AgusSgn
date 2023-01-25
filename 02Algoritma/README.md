@@ -25,3 +25,4 @@ Berikut Adalah Contoh Algoritma menentukan Bilangan Prima atau bukan dayang saya
 
 https://whimsical.com/rawlabs-algoritma-PxFRbjcpuZpsk7yBMzVjjz
 
+![alt](https://https://github.com/onowdev/RawlabsAcademy_AgusSgn/blob/main/02Algoritma/Images/Bilangan%20Prima%20dan%20Non%20Prima.png)
