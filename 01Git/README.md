@@ -42,6 +42,8 @@ Agar dapat menggunakan Git, berikut ini beberapa perintah dasar Git yang perlu d
 
 **git commit** Digunakan untuk menyimpan apabila terjadi perubahan dan dilakukan pada repository jarak jauh, namun tidak bisa melakukan perubahan. 
 
+**git pull** perintah untuk menarik atau mengambil source code dari repository.
+
 **git push** Perintah yang digunakan untuk mentransfer perubahan file ke repository jarak jauh setelah melakukan perubahan.
 
 **git checkout** Merupakan perintah dasar yang digunakan untuk menukar cabang aktif dengan cabang yang dipilih. 
@@ -49,3 +51,5 @@ Agar dapat menggunakan Git, berikut ini beberapa perintah dasar Git yang perlu d
 **git merge** Merupakan perintah dasar yang menggabungkan cabang aktif dengan cabang yang dipilih.
 
 **git clone** adalah perintah dasar untuk membuat salinan repository lokal.
+
+**git log** perintah untuk melihat riwayat atau history perubahan pada project.
