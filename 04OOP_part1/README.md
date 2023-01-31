@@ -92,6 +92,10 @@ Dari contoh di atas, function hidupkanLaptop() dan matikanLaptop() adalah method
 
 Seperti yang kita lihat, penulisan method dalam bahasa Java sama saja dengan cara penulisan function.
 
+Pengertian Object dalam OOP Java
+Object atau objek adalah hasil cetak dari class, atau bisa juga disebut hasil konkrit dari class. Masih menggunakan analogi class Laptop, maka object dari class Laptop bisa berupa: laptopRudi, laptopLisa, atau laptopDuniailkom.
+
+Sebuah object dari class Laptop akan memiliki seluruh ciri-ciri laptop, termasuk property dan method-nya. Proses mencetak object dari class ini disebut dengan instansiasi (atau instantiation).
 
 =================================
 Dalam OOP:
