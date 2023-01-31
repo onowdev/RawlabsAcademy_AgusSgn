@@ -32,32 +32,74 @@ OOP dikenal sebagai teknik pemrograman modern yang lebih efisien dan banyak digu
 
 
 
-## Class dan Object
+## Class, Object, Property, dan Method
 
-**Class** sebenarnya bertugas untuk mengumpulkan prosedur/fungsi dan variabel dalam satu tempat.
+**Class** adalah cetak biru atau blueprint dari object. Class digunakan hanya untuk membuat kerangka dasar. Yang akan kita pakai nanti adalah hasil cetakan dari class, yakni object.
+
+Sebagai analogi, class bisa diibaratkan dengan laptop atau notebook, yakni gambaran umum tentang sebuah benda. Di dalam pemrograman nanti, contoh class seperti User, Item, Siswa, Validate, dll.
+
+Dalam bahasa Java, penulisan class diawali dengan keyword class, kemudian diikuti dengan nama dari class tersebut. Aturan penulisan nama class sama seperti aturan penulisan variabel di Java (lebih tepatnya aturan identifier), yakni tidak boleh diawali angka dan tidak boleh mengandung spasi.
+
+Namun kebiasaan programmer Java, nama class ditulis menggunakan PascalCase atau UpperCamelCase. Yakni setiap kata diawali dengan huruf besar, termasuk kata pertama.
+
+Berikut adalah contoh penulisan class dalam bahasa Java:
+
+```java
+class Laptop{
+  //isi dari Class Laptop...
+  //Isi dari Class Laptop...
+}
+```
+
+Pengertian **Property** dalam OOP Java
+Property (atau kadang juga dengan atribut atau field) adalah data yang terdapat dalam sebuah class. Melanjutkan analogi tentang laptop, property dari laptop bisa berupa merk, warna, jenis processor, ukuran layar, dan lain-lain.
+
+Jika anda sudah terbiasa dengan program Java, property ini sebenarnya hanyalah variabel yang terletak di dalam class. Seluruh aturan dan tipe data yang biasa diinput ke dalam variabel, juga bisa diinput ke dalam property. Aturan tata cara penamaan property sama dengan aturan penamaan variabel.
+
+Berikut adalah contoh penulisan class dengan penambahan property:
+
+```java
+class Laptop {
+  String pemilik;
+  String merk;
+  double ukuranLayar;
+}
+```
+Dari contoh di atas, pemilik, merk dan ukuranLayar adalah property dari class Laptop. Seperti yang bisa kita lihat, penulisan property di Java sama dengan cara penulisan variabel biasa, yakni dengan menulis tipe data diikuti dengan nama property.
+
+Meskipun relatif jarang, sebuah class bisa saja tidak memiliki property.
+
+Pengertian Method dalam OOP Java
+Method adalah tindakan yang bisa dilakukan di dalam class. Jika menggunakan analogi class Laptop, maka contoh method adalah: menghidupkan laptop, mematikan laptop, atau mengganti cover laptop.
+
+Method pada dasarnya adalah function yang berada di dalam class. Seluruh sifat function bisa diterapkan ke dalam method seperti bisa di isi argument/parameter, mengembalikan nilai (dengan keyword return), dan lain-lain.
+
+Berikut adalah contoh penulisan class Laptop dengan penambahan method:
+
+```java
+class Laptop {
+  void hidupkanLaptop() {
+    //... isi dari method hidupkanLaptop
+  }
+  
+  String matikanLaptop() {
+    //... isi dari method matikanLaptop
+  }
+}
+```
+
+Dari contoh di atas, function hidupkanLaptop() dan matikanLaptop() adalah method dari class Laptop.
+
+Seperti yang kita lihat, penulisan method dalam bahasa Java sama saja dengan cara penulisan function.
 
 
-Dengan class, kita bisa menentukan.. mana variabel dan prosedur untuk kucing dan makanan.
-
-Class ini nanti yang akan kita pakai untuk membuat objek.
-
-Jadi…
-
-Class adalah rancangan atau blue print dari sebuah objek.
-
-Sedangkan objek adalah sebuah variabel yang merupakan instance atau perwujudan dari Class.
-
-Sedangkan objek adalah sebuah variabel yang merupakan instance atau perwujudan dari Class.
-
-Instance bisa diartikan sebagai wujud dari class.
-
-Class berisi definisi variabel dan fungsi yang menggambarkan sebuah objek.
-
+=================================
 Dalam OOP:
 
 Variabel disebut atribut atau properti;
 Fungsi disebut method.
 
+=====================================
 > Contoh Class:
 
 ```java
@@ -86,6 +128,8 @@ namaObj.namaMethod();
 namaObj.atribut1;
 ```
 Tanda titik (.) berfungsi untuk mengakses atribut dan method.
+
+
 
 ## Fundamental Konsep OOP
 
