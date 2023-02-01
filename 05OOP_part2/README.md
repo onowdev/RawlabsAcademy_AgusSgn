@@ -65,4 +65,3 @@ Pada inheritance, Superclass dapat menurunkan sifat yang dimilkinya kepada setia
 Tipe akses / hak akses yang dapat diwarisi dari superclass kepada sublclass ialah protected dan public sedangkan private tidak akan diturunkan kepada subclass.
 
 Dalam pembuatan kode berdasarkan konsep inheritance, biasanya para programmer juga menggunakan metode overriding atau metode overloading  untuk subclass agar program dapat berjalan dengan lancar. 
-
