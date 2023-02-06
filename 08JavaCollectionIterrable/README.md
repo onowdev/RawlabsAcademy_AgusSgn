@@ -58,3 +58,58 @@ c:300
 d:400
 ```
 
+Contoh penerapan Java Collection pada :
+
+### While Loop
+
+```java
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+
+public class WhileIteration {
+
+    public static void main(String[] args) {
+
+        Collection<String> collection = new ArrayList<String>();
+
+        collection.add("zero");
+        collection.add("one");
+        collection.add("two");
+
+        Iterator<string> iterator = collection.iterator();
+
+        // while loop
+        while (iterator.hasNext()) {
+        System.out.println("value= " + iterator.next());
+        }
+    }
+}
+
+```
+
+
+### Foreach Loop
+
+```java
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class ForEachInteration {
+
+    public static void main(String[] args) {
+
+        Collection<String> collection = new ArrayList<String>();
+
+        collection.add("zero");
+        collection.add("one");
+        collection.add("two");
+
+        // for-each loop
+        for (String s : collection) {
+        System.out.println("value= " + s);
+        }
+    }
+}
+```
