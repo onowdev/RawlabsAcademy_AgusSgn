@@ -60,8 +60,16 @@ Stack Adalah sebuah koleksi objek yang menerapkan konsep LIFO (Last In First Out
 
 terdapat dua operasi dasar dalam stack, yakni push dan pop. Operasi push digunakan untuk memasukkan data ke dalam stack sedangkan operasi pop digunakan untuk mengeluarkan data dari stack.
 
-### Contoh Stack
+### Contoh Stack dalam java
 
 ```java
+Stack mystack = new Stack();
+// Atau bisa juga stack sebagai objek dalam java
+
+Stack<data_type> myStack = new Stack<data_type>;
+
+Stack<Integer> stack_obj = new Stack<>();
+
+Stack<String> str_stack = new Stack<>();
 
 ```
