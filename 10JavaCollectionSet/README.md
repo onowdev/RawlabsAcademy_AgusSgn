@@ -12,6 +12,10 @@ Dua class penting yang ada dalam Java Collections Framework yang meng-implement 
 **HashSet** merupakan class yang sering digunakan untuk menyimpan collection yang bebas duplikasi. Untuk efisiensi, objek yang ditambahkan dalam HashSet, perlu untuk menggunakan method hashCode().
 
 ### Implementasi HashSet
+
+```text
+Set<data-type> s1 = new HashSet<data-type>();
+```
 ```java
 import java.util.*;  
 public class Main
