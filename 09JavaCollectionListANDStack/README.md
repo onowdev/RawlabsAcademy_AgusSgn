@@ -1,4 +1,7 @@
 # Java Collection
+
+![List Diagram](https://github.com/onowdev/RawlabsAcademy_AgusSgn/blob/main/09JavaCollectionListANDStack/picture/Collections-in-Java1.png)
+
 ### List
 
 List adalah jenis array yang membolehkan adanya value duplicate atau nilai yang sama dalam index yang berbeda. List memiliki beberapa fungsi-fungsi yang cukup membantu dalam proses pengolahan nilai-nilai seperti fungsi clear() untuk menghapus semua element atau value pada list, melakukan insert value pada index element tertentu dengan fungsi add(int index, Object element), menghapus value pada index element tertentu dengan fungsi remove(int index) dan masih banyak lagi fungsi lainnya yang mungkin bisa digunakan sesuai kebutuhan kita.
@@ -56,3 +59,9 @@ public class LinkedList {
 Stack Adalah sebuah koleksi objek yang menerapkan konsep LIFO (Last In First Out). Jadi data terakhir yang masuk adalah yang diproses terlebih dahulu. Berkebalikan dengan Queue atau Antrian yang mana data yang masuk terlebih dahulu akan diproses terlebih dahulu.
 
 terdapat dua operasi dasar dalam stack, yakni push dan pop. Operasi push digunakan untuk memasukkan data ke dalam stack sedangkan operasi pop digunakan untuk mengeluarkan data dari stack.
+
+### Contoh Stack
+
+```java
+
+```
