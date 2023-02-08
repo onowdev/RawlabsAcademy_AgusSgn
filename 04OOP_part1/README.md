@@ -1,4 +1,5 @@
 # Apa itu OOP? 
+![oop konsep](https://github.com/onowdev/RawlabsAcademy_AgusSgn/blob/main/04OOP_part1/ooptugas1/Image/oopJava.jpeg)
 
 OOP Merupakan Singkatan dari Object oriented programming, dimana merupakan salah satu paradigma dalam dunia pemrograman / Software engineering.
 
