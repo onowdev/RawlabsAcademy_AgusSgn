@@ -1,5 +1,7 @@
 ## Java Map Collection
 
+![map hierarki](https://github.com/onowdev/RawlabsAcademy_AgusSgn/blob/main/11JavaCollectionMap/image/javamaphierarchy.jpg)
+
 Map Merupakan bagian dari Java collection yang mendukung pencarian berdasarkan key dengan syarat harus unik. Map juga dapat menampung beragam tipe data, sama dengan List dan Set. Namun bedanya, Map dapat menyimpan data secara berpasangan yang terdiri dari key dan value. Untuk nilai dari key, harus unik dan tidak beloeh ada yang sama. Namun jika tetap ingin menyimpan nilai dengan key yang sama, maka nilai key yang terakhir disimpanlah yang akan tersimpan didalam Map.
 
 ada dua Class Dalam interface Map ini yang akan dijelaskan yaitu HashMap dan TreeMap
