@@ -57,4 +57,18 @@ public class CobaHashMap {
 
 ### TreeMap
 
-TreeMap  adalah salah satu implementasi dari class interface yang mengurutkan collection berdasarkan key dari elemen berupa pasangan <key, value>. TreeMap sangat berguna terutama untuk mengelola antrian berdasarkan key atau index, bukan value atau nilainya.
+TreeMap  adalah salah satu implementasi dari class interface yang mengurutkan collection berdasarkan key dari elemen berupa pasangan <key, value>. TreeMap sangat berguna terutama untuk mengelola antrian berdasarkan key atau index, bukan value atau nilainya. 
+
+Cara menggunakan HasMap
+
+```java
+ HashMap<K, V> hmap = new HashMap<K, V>();
+ // K = Tipe Data Key
+// V = Tipe Data Value
+```
+
+Penerapan pada Java
+
+```java
+
+```
